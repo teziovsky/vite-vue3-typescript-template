@@ -1,27 +1,44 @@
-# Vue 3 + Typescript + Vite
+# Hey it's vite-vue3-typescript-template! 🖖🏼
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+![GitHub package.json version](https://img.shields.io/github/package-json/v/teziovsky/vite-vue3-typescript-template) [![GitHub](https://img.shields.io/github/license/teziovsky/vite-vue3-typescript-template)](https://choosealicense.com/licenses/mit/) [![Twitter Follow](https://img.shields.io/twitter/follow/teziovsky?style=social)](https://www.twitter.com/teziovsky)
 
-## Recommended IDE Setup
+> A Vite with Vue3 and TypeScript starter template. Included eslint, prettier, husky and lint-staged.
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
+## Demo 👀
+#### [🏠 Link to demo here!](https://github.com/teziovsky/vite-vue3-typescript-template/#readme)
 
-### If Using `<script setup>`
+## Get started 🏁
 
-[`<script setup>`](https://github.com/vuejs/rfcs/pull/227) is a feature that is currently in RFC stage. To get proper IDE support for the syntax, use [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur (and disable Vetur).
+Clone the project and go to the project directory
 
-## Type Support For `.vue` Imports in TS
+```bash
+git clone git@github.com:teziovsky/vite-vue3-typescript-template.git && cd vite-vue3-typescript-template
+```
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can use the following:
+Install dependencies
 
-### If Using Volar
+```bash
+npm install
+```
 
-Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
+Start the application!
 
-### If Using Vetur
+```bash
+npm run dev
+```
 
-1. Install and add `@vuedx/typescript-plugin-vue` to the [plugins section](https://www.typescriptlang.org/tsconfig#plugins) in `tsconfig.json`
-2. Delete `src/shims-vue.d.ts` as it is no longer needed to provide module info to Typescript
-3. Open `src/main.ts` in VSCode
-4. Open the VSCode command palette
-5. Search and run "Select TypeScript version" -> "Use workspace version"
+## Author 🙎🏼‍
+
+#### [@teziovsky](https://www.github.com/teziovsky)
+
+## Contact ☎️
+
+If you have any suggestions, please [email me here](mailto:jakub.soboczynski@icloud.com)! 🔥
+
+## License 🧾
+
+#### [MIT License](https://choosealicense.com/licenses/mit/)
+
+---
+
+README created with ❤️ by [md-generate](https://www.npmjs.com/package/md-generate)

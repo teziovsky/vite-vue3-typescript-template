@@ -1,7 +1,26 @@
 {
   "name": "vite-vue3-typescript-template",
-  "description": "A Vite with Vue3 and TypeScript starter template. Included eslint, prettier, husky and lint-staged.",
   "version": "1.0.0",
+  "description": "A Vite with Vue3 and TypeScript starter template. Included eslint, prettier, husky and lint-staged.",
+  "homepage": "https://github.com/teziovsky/vite-vue3-typescript-template/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teziovsky/vite-vue3-typescript-template.git"
+  },
+  "engines": {
+    "node": ">=v14.0.0",
+    "npm": ">=v6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/teziovsky/vite-vue3-typescript-template/issues",
+    "email": "teziovsky@gmail.com"
+  },
+  "license": "MIT License",
+  "author": {
+    "name": "Jakub Soboczyński",
+    "email": "jakub.soboczynski@icloud.com",
+    "url": "https://www.jakubsoboczynski.pl"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
